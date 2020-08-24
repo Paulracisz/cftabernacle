@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+/* TODO: Make it so that iPhone version doesn't overflow on the Y axis. */
+
+body {
+    background-repeat: space repeat;
+}
+
+#bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#onepbox {
+    margin-top: 5em;
+    background-color: rgba(54, 53, 53, 0.493);
+    padding: 1.5em;
+}
+
+.abtext, h2 {
+    color: whitesmoke;
+    font-family: 'Red Rose', cursive;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+}
+
+.period {
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+    font-family: 'Red Rose', cursive;
+    text-shadow: 2px 2px 2px black;
+}
+
+#backtt {
+    font-size: 1.5em; 
+}
+
+hr {
+    background-color: white;
+}
+
+#pro-pic {
+    width: 22em;
+    height: 22em;
+    object-fit: cover;
+    border: solid white 4px;
+    border-radius: 25%;
+}
+
+
+@media screen and (max-width: 410px) {
+    #pro-pic {
+      width: 16em;
+      height: 16em;
+    }
+  }

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+
+
+/* source for backgroud image https://www.pexels.com/photo/scenic-photo-of-lake-surrounded-by-trees-1903702/ */
+body {
+  background-image: url("../resources/bg.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+h2 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  color: whitesmoke;
+}
+
+a {
+  color: whitesmoke;
+}
+
+.menui {
+  background-color: rgb(49, 49, 49);
+  color: whitesmoke;
+  font-family: 'Red Rose', cursive;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.menui:hover {
+  text-shadow: 5px 5px 5px black;
+  background-color: rgb(105, 105, 105);
+  transition: all 0.2s ease;
+}
+
+.bigtext {
+  font-family: 'Red Rose', cursive;
+}
+
+#menu {
+  background-color: rgb(54, 53, 53);
+  font-size: 25px;
+  width: 100vw;
+}
+
+#logo {
+  object-fit: contain;
+  width: 100vw;
+  height: 25em;
+  margin: 10px;
+}
+
+#imgbox {
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+#joinus {
+  background-color: rgb(54, 53, 53);
+  padding: 5px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#a {
+  font-size: 18px;
+  color: white;
+  font-family: 'Red Rose', cursive;
+  background-color: red;
+  border-radius: 15%;
+  padding: 10px;
+  border: 3px solid whitesmoke;
+}
+
+#a:hover {
+  transition: all 0.3s ease;
+  color: yellow;
+  border: 3px solid yellow;
+  text-shadow: 2px 2px black;
+}
+
+/* Media Query to make nav links display on smaller devices */
+@media screen and (max-width: 410px) {
+  #menu {
+    font-size: 16px;
+  }
+}
+
+/* styling of scrollbar with support for most browsers */
+
+body::-webkit-scrollbar {
+  width: 16px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: rgb(54, 53, 53);;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(78, 77, 78);  /* creates padding around scroll thumb */
+}
+

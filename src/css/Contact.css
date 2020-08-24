@@ -1,0 +1,8 @@
+#foftext {
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15%;
+}
