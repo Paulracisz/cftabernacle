@@ -4,4 +4,56 @@
     object-fit: cover;
     border: solid white 4px;
     border-radius: 25%;
+    margin-bottom: 10px;
 }
+
+details {
+    font-size: 1.5em;
+    color: whitesmoke;
+    font-family: 'Red Rose', cursive;
+    text-shadow: 2px 2px 2px black;
+    outline: none;
+}
+
+details:hover{
+    cursor: pointer;
+}
+
+#donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#donatebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(54, 53, 53, 0.493);
+    width: 50%;
+
+}
+
+details {
+    border: solid 2px white;
+    border-radius: 3%;
+    margin: 10px;
+}
+
+
+
+/* media query to make the image smaller so that the text is readable */
+@media screen and (max-width: 410px) {
+    #pro-pic {
+      width: 16em;
+      height: 16em;
+    }
+
+    #donatebox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }

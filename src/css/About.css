@@ -51,7 +51,7 @@ hr {
     border-radius: 25%;
 }
 
-
+/* media query to make the image smaller so that the text is readable */
 @media screen and (max-width: 410px) {
     #pro-pic {
       width: 16em;
