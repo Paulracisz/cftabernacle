@@ -1,0 +1,8 @@
+#foftext {
+    color: black;
+    background-color: white;
+    font-family: "Gill Sans", sans-serif;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15%;
+}

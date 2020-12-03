@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+#creditdiv {
+    background-color: rgb(54, 53, 53);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#creditp {
+    color: white;
+    font-size: 16px;
+    font-family: 'Red Rose', cursive;
+
+}
