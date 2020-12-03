@@ -6,7 +6,7 @@ function Credit() {
   return (
     <>
     <div id="creditdiv">
-        <p id="creditp">Website  Created by Paul Racisz. Check out my portfolio <a href="https://paulracisz.dev/" target="_blank" rel="noopener noreferrer">here.</a></p>
+        <p id="creditp">Website  Created by Paul Racisz. Check out my portfolio <a href="https://iampaulracisz.net/" target="_blank" rel="noopener noreferrer">here.</a></p>
     </div>
     </>
   );

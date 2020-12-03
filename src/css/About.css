@@ -29,6 +29,10 @@ body {
     color: whitesmoke;
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     color: whitesmoke;
     font-family: 'Red Rose', cursive;

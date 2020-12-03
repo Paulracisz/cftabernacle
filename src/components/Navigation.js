@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom';
 function Navigation() {
     return (
 <div id="menu">
-    <NavLink to="/" className="menui">Home</NavLink>
-    <NavLink to="/aboutus" className="menui">About Us</NavLink>
-    <NavLink to="/donate" className="menui">Donate</NavLink>
-    <NavLink to="/contactus" className="menui">Contact</NavLink>
+    <a href="#top" className="menui">Home</a>
+    <a href="#aboutus" className="menui">About Us</a>
+    <a href="#donate" className="menui">Donate</a>
+    <a href="#contactus" className="menui">Contact</a>
     </div>
     );
 }

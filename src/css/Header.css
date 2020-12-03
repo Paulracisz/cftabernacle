@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+#form-div {
+  background-color: whitesmoke;
+}
+
 h2 {
   color: whitesmoke;
   text-shadow: 1px 1px 5px black;
@@ -98,6 +102,9 @@ a {
 @media screen and (max-width: 410px) {
   #menu {
     font-size: 16px;
+  }
+  #form-div {
+    width: 85vw;
   }
 }
 
