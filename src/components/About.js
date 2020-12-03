@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/About.css';
 import Navigation from "./Navigation";
-import Profile1 from "../resources/profile1.jpeg";
+import Profile1 from "../resources/profile1.jpg";
 
 
 

@@ -3,10 +3,10 @@ import '../css/Header.css';
 import Navigation from "./Navigation";
 import Logo from '../resources/logo3.png';
 import Credit from '../components/Credit';
-import Profile1 from "../resources/profile1.jpeg";
+import Profile1 from "../resources/profile1.jpg";
 import '../css/About.css';
 import '../css/Donate.css';
-import Profile3 from "../resources/profile3.jpeg";
+import Profile3 from "../resources/profile2.jpg";
 
 
 function Header() {
@@ -94,7 +94,7 @@ function Header() {
 
       </h2>
       <div id="form-div">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe--jIur7nKNZBhLwEc7fQp_G8_STmJ7umfeeca8g2qViW62Q/viewform?embedded=true" width="640" height="962" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe id="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSe--jIur7nKNZBhLwEc7fQp_G8_STmJ7umfeeca8g2qViW62Q/viewform?embedded=true" width="640" height="962" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
     </div>
     <a id="backtt" href="#top">Back To The Top</a>
