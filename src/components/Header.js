@@ -77,13 +77,13 @@ function Header() {
       <img id="pro-pic" src={Profile3} alt="the bishop"/>
       <div id="donatebox">
       <div id="paypalbox">
-        <details id="paypaldetails"><summary id="paypalsum">Paypal</summary><p >Donations via PayPal<br/> can be made to <strong>Christianfaithtab@gmail.com</strong></p></details>
+        <details id="paypaldetails"><summary id="paypalsum">Paypal</summary><p className="donate-text">Donations via PayPal<br/> can be made to <br/><strong id="email">Christianfaithtab<br/>@gmail.com</strong></p></details>
       </div>
       <div id="cashappbox">
-      <details id="cashappdetails"><summary id="cashappsum">CashApp</summary><p>Donations via CashApp<br/> can be made to <strong>$Ctfchurch9300</strong></p></details>
+      <details id="cashappdetails"><summary id="cashappsum">CashApp</summary><p className="donate-text">Donations via CashApp<br/> can be made to <strong>$Ctfchurch9300</strong></p></details>
       </div>
       <div id="mailinbox">
-      <details id="mailindetails"><summary id="mailinsum">Mail-In</summary><p>Donations via Mail-In <br/>can be made to <strong>9300 E. Forest, Detroit, MI</strong></p></details>
+      <details id="mailindetails"><summary id="mailinsum">Mail-In</summary><p className="donate-text">Donations via Mail-In <br/>can be made to <strong>9300 E. Forest, Detroit, MI</strong></p></details>
       </div>
       </div>
 

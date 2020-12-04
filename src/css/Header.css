@@ -106,7 +106,22 @@ a {
     font-size: 16px;
   }
   #form-div {
-    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #onepbox {
+    width: 100vw;
+  }
+
+  .donate-text {
+    font-size: 16px;
+  }
+
+  #bigbox {
+    display: flex;
+    justify-content: center;
   }
 
   #iframe {
