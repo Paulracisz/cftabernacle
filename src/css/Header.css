@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 /* source for backgroud image https://www.pexels.com/photo/scenic-photo-of-lake-surrounded-by-trees-1903702/ */
 body {
