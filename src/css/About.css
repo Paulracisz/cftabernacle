@@ -47,6 +47,13 @@ hr {
     background-color: white;
 }
 
+#videoBox {
+  margin: 20px;  
+  margin-bottom: 40px;
+  border: 5px solid white;
+  border-radius: 15%;
+}
+
 #pro-pic {
     object-fit: fill;
     border: solid white 4px;
@@ -58,5 +65,9 @@ hr {
     #pro-pic {
       width: 16em;
       height: 16em;
+    }
+    #videoBox {
+        width: 220px;
+        height: 220px;
     }
   }

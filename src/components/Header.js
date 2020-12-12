@@ -7,7 +7,7 @@ import Profile1 from "../resources/profile1.jpg";
 import '../css/About.css';
 import '../css/Donate.css';
 import Profile3 from "../resources/profile2.jpg";
-
+import Video from './Videos.js';
 
 function Header() {
   return (
@@ -15,6 +15,7 @@ function Header() {
     <h1 className="bigtext">Christian Faith Tabernacle Church</h1>
     <div id="imgbox">
     <img id="logo" src={Logo} alt="the church logo" />
+    <Video/>
     </div>
     <Navigation/>
     <div id="joinus">
